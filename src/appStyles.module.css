@@ -1,0 +1,71 @@
+
+/* CourseCard */
+.coursesCard {
+    margin-top: 3rem;
+  }
+  .coursesCard img {
+    width: 100%;
+    margin-bottom: 0.8rem;
+    height: 9rem;
+  }
+  .coursesCard h5 {
+    color: black;
+    line-height: 1.4rem;
+    /* font-size: 1rem; */
+  }
+  .authorName {
+    color: #6a6f73;
+    font-size: 0.8rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .ratingNum {
+    color: #b4690e;
+    font-weight: 700;
+    font-size: 0.85rem;
+    margin-right: 6px;
+  }
+  .ratingStars {
+    width: 25%;
+    height: 100%;
+    margin-right: 8px;
+  }
+  .goldStar {
+    font-size: 10px;
+    color: gold;
+  }
+  .grayStar {
+    font-size: 10px;
+    color: #ddd;
+  }
+  .numOfStudents {
+    color: #6a6f73;
+    font-size: 0.8rem;
+  }
+   .coursePrice {
+    margin-top: 11px;
+    color: black;
+    font-weight: 700;
+  } 
+  
+  /* delet line old price */
+  strike {
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    font-weight: 500; 
+    font-size: 0.8rem;
+  }
+  strike:after {
+    content: "";
+    /* required property */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 1rem;
+    border-top: 2px solid gray;
+    height: 45%;
+    height: calc(50% - 1px);
+    width: 100%;
+    transform: rotateZ(0deg);
+  }
