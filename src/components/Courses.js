@@ -1,5 +1,7 @@
 import React from 'react'
 import Card from "./Card";
+import styles from '../appStyles.module.css';
+
 function Courses(data) {
     
    let listOfCards=data.allCourses.map((course)=>{
@@ -7,8 +9,8 @@ function Courses(data) {
 });
 
   return (
-    <section className='container-courses'>
-      <div className='courses-discription'>
+    <section className={`container-courses ${styles.containerCourses}`}>
+      <div className={`courses-discription ${styles.coursesDiscription}`}>
         <span>Expand your career opportunities with Python</span>
         <p>
         Take one of Udemy’s range of Python courses and learn how to code
@@ -18,13 +20,13 @@ function Courses(data) {
           sites to apps. Choose from a range of courses that will appeal to...
         </p>
       </div>
-      <div className='explore-btn'>
+      <div className={`explore-btn ${styles.exploreBtn}`}>
         <a href='#'>Explore {data.allCourses[0].tabs}</a>
       </div>
      
     
 
-      <div className='courses-swiper'>
+      <div className={`courses-swiper ${styles.coursesSwiper}`}>
         {/* <Card course={allCourses.allCourses[0]}></Card> */}
         {listOfCards}
       </div>
