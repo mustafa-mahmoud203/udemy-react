@@ -1,3 +1,73 @@
+@import url("https://use.typekit.net/bcc4wcv.css");
+
+.containerCourses {
+    width: 90%;
+    border: 0.4px solid #6a6f73;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 35px 35px;
+    margin-left:auto ;
+    margin-right: auto;
+  }
+  
+  /* Course Description */
+  .coursesDiscription span {
+    font-family: udemy sans, -apple-system, BlinkMacSystemFont, Roboto, segoe ui,
+      Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji,
+      segoe ui symbol;
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 1.5rem;
+    letter-spacing: -0.02rem;
+  }
+  .coursesDiscription p {
+    margin-top: 0.6rem;
+    line-height: 1.2;
+    width: 70%;
+    font-size: 0.8rem;
+    color: black;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  
+  /* Explore Bottom Style */
+  .exploreBtn {
+    margin-top: 1rem;
+    border: 1px solid black;
+    width: max-content;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.7s ease;
+  }
+  .exploreBtn:hover {
+    background-color: #f7f9fa;
+    transform: scale(1.1);
+  }
+  .exploreBtn a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin: 0 10px;
+  }
+  
+  .coursesSwiper{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+  }
+
+
+
+
+
 
 /* CourseCard */
 .coursesCard {

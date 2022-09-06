@@ -23,7 +23,7 @@ code {
     monospace;
 }
 
-.container-courses {
+/* .container-courses {
   width: 90%;
   border: 0.4px solid #6a6f73;
   margin-top: 1rem;
@@ -34,7 +34,7 @@ code {
 }
 
 /* Course Description */
-.courses-discription span {
+/* .courses-discription span {
   font-family: udemy sans, -apple-system, BlinkMacSystemFont, Roboto, segoe ui,
     Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji,
     segoe ui symbol;
@@ -58,7 +58,7 @@ code {
 }
 
 /* Explore Bottom Style */
-.explore-btn {
+/* .explore-btn {
   margin-top: 1rem;
   border: 1px solid black;
   width: max-content;
@@ -85,7 +85,7 @@ code {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 20px;
-}
+} */ 
 
 
 /* Course Card Style
