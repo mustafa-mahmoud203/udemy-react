@@ -1,141 +1,418 @@
 @import url("https://use.typekit.net/bcc4wcv.css");
 
+.drawerMenuStyle {
+  display: none;
+  font-size: 20px;
+}
+.logoImgStyle {
+  width: 80px;
+  height: 60px;
+  margin-top: 2px;
+  align-items: center;
+  justify-content: center;
+}
+
+.navItemCategoriesLinkStyle {
+  font-size: 0.75rem;
+  padding-bottom: 5px;
+  color: black;
+  margin-left: 15px;
+  margin-right: 25px;
+}
+.navItemCategoriesLinkStyle :hover {
+  color: blueviolet;
+}
+
+.navItemsStyle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navItemsLinkStyle {
+  font-size: 0.8rem;
+  padding-bottom: 5px;
+  color: black;
+  margin-left: 20px;
+}
+.navItemsLinkStyle:hover {
+  color: blueviolet;
+}
+
+.containerSearchStyle {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+.searchBarStyle {
+  background-color: #f7f9fa;
+  width: 100%;
+  height: 5.7vh;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  padding: 10px 15px;
+}
+.searchBarButtonStyle {
+  border: none;
+  background: transparent;
+}
+.searchBarInputStyle {
+  background: transparent;
+  border: 0;
+  width: 100%;
+  outline: none;
+  font-size: 0.7rem;
+  padding: 0 15px;
+}
+
+.searchShoppingIconsStyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searchIconStyle {
+  font-size: 19px;
+  display: none;
+}
+.shoppingIconStyle {
+  margin: 0 20px;
+}
+.shoppingIconStyle {
+  color: black;
+  font-size: 1.14rem;
+}
+
+/* Nav-bottoms style */
+.navBottomsStyle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 30px;
+}
+.logInStyle {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 77px;
+  height: 45px;
+  transition: 0.7s ease;
+}
+.logInStyle:hover {
+  transform: scale(1.1);
+  background-color: #f7f9fa;
+}
+.logInLinkStyle {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: black;
+  background: transparent;
+}
+
+.signUpStyle {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 77px;
+  height: 45px;
+  background-color: black;
+  transition: 0.7s ease;
+  margin: 0 13px;
+}
+.signUpStyle:hover {
+  transform: scale(1.1);
+}
+.signUpLinkStyle {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: white;
+}
+
+.globleIconStyle {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  transition: 0.7s ease;
+}
+.globleIconStyle:hover {
+  transform: scale(1.1);
+  background-color: #f7f9fa;
+}
+.globleIconLinkStyle {
+  color: black;
+  font-size: 1.25rem;
+}
+
+/* /////////////////////////////////////////////////////////// */
+
 .containerCourses {
-    width: 90%;
-    border: 0.4px solid #6a6f73;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    padding: 35px 35px;
-    margin-left:auto ;
-    margin-right: auto;
-  }
-  
-  /* Course Description */
-  .coursesDiscription span {
-    font-family: udemy sans, -apple-system, BlinkMacSystemFont, Roboto, segoe ui,
-      Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji,
-      segoe ui symbol;
-    font-weight: 700;
-    line-height: 1.2;
-    font-size: 1.5rem;
-    letter-spacing: -0.02rem;
-  }
-  .coursesDiscription p {
-    margin-top: 0.6rem;
-    line-height: 1.2;
-    width: 70%;
-    font-size: 0.8rem;
-    color: black;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    line-clamp: 2;
-    -webkit-box-orient: vertical;
-  }
-  
-  /* Explore Bottom Style */
-  .exploreBtn {
-    margin-top: 1rem;
-    border: 1px solid black;
-    width: max-content;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 0.7s ease;
-  }
-  .exploreBtn:hover {
-    background-color: #f7f9fa;
-    transform: scale(1.1);
-  }
-  .exploreBtn a {
-    text-decoration: none;
-    color: black;
-    font-weight: 600;
-    font-size: 0.9rem;
-    margin: 0 10px;
-  }
-  
-  .coursesSwiper{
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-gap: 20px;
-  }
+  width: 90%;
+  border: 0.4px solid #6a6f73;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 35px 35px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+/* Course Description */
+.coursesDiscription span {
+  font-family: udemy sans, -apple-system, BlinkMacSystemFont, Roboto, segoe ui,
+    Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji,
+    segoe ui symbol;
+  font-weight: 700;
+  line-height: 1.2;
+  font-size: 1.5rem;
+  letter-spacing: -0.02rem;
+}
+.coursesDiscription p {
+  margin-top: 0.6rem;
+  line-height: 1.2;
+  width: 70%;
+  font-size: 0.8rem;
+  color: black;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
 
+/* Explore Bottom Style */
+.exploreBtn {
+  margin-top: 1rem;
+  border: 1px solid black;
+  width: max-content;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.7s ease;
+}
+.exploreBtn:hover {
+  background-color: #f7f9fa;
+  transform: scale(1.1);
+}
+.exploreBtn a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin: 0 10px;
+}
 
-
-
+.coursesSwiper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px;
+}
 
 /* CourseCard */
 .coursesCard {
-    margin-top: 3rem;
+  margin-top: 3rem;
+}
+.coursesCard img {
+  width: 100%;
+  margin-bottom: 0.8rem;
+  height: 9rem;
+}
+.coursesCard h5 {
+  color: black;
+  line-height: 1.4rem;
+  /* font-size: 1rem; */
+}
+.authorName {
+  color: #6a6f73;
+  font-size: 0.8rem;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.ratingNum {
+  color: #b4690e;
+  font-weight: 700;
+  font-size: 0.85rem;
+  margin-right: 6px;
+}
+.ratingStars {
+  width: 25%;
+  height: 100%;
+  margin-right: 8px;
+}
+.goldStar {
+  font-size: 10px;
+  color: gold;
+}
+.grayStar {
+  font-size: 10px;
+  color: #ddd;
+}
+.numOfStudents {
+  color: #6a6f73;
+  font-size: 0.8rem;
+}
+.coursePrice {
+  margin-top: 11px;
+  color: black;
+  font-weight: 700;
+}
+
+/* delet line old price */
+strike {
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+strike:after {
+  content: "";
+  /* required property */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 1rem;
+  border-top: 2px solid gray;
+  height: 45%;
+  height: calc(50% - 1px);
+  width: 100%;
+  transform: rotateZ(0deg);
+}
+
+/* Footer style */
+
+
+.itemsLang {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.footerListItems {
+  width: 100%;
+  display: flex;
+
+  gap: 10%;
+  /* justify-content: space-between; */
+}
+.footerListItems a {
+  color: white;
+}
+.footerListItems a:hover {
+  text-decoration: underline;
+}
+footer dl {
+  color: white;
+  font-size: 0.8rem;
+  line-height: 30px;
+}
+.lang {
+  border: 1px solid white;
+  width: 130px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lang:hover {
+  background-color: gray;
+}
+
+.langIconAndParagraph{
+  color: white;
+  padding-right: 10px;
+}
+.fooUdemyIcon {
+  margin-top: 30px;
+  margin-bottom: -25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fooLogoImg {
+  width: 120px;
+  height: 90px;
+  margin-top: 2px;
+}
+
+.endFoo {
+  color: white;
+  font-size: 0.8rem;
+}
+
+/* ----------------------------------------------------------------------- */
+
+@media screen and (max-width: 1399px) {
+  .coursesSwiper {
+    grid-template-columns: repeat(4, 1fr);
   }
-  .coursesCard img {
-    width: 100%;
-    margin-bottom: 0.8rem;
-    height: 9rem;
+}
+
+@media screen and (max-width: 1199px) {
+  .udemy-business {
+    display: none;
   }
-  .coursesCard h5 {
-    color: black;
-    line-height: 1.4rem;
-    /* font-size: 1rem; */
+
+  .coursesSwiper {
+    grid-template-columns: repeat(3, 1fr);
   }
-  .authorName {
-    color: #6a6f73;
-    font-size: 0.8rem;
-    margin-top: 5px;
-    margin-bottom: 5px;
+}
+
+@media screen and (max-width: 991px) {
+  .navItemsStyle {
+    display: none;
   }
-  .ratingNum {
-    color: #b4690e;
-    font-weight: 700;
-    font-size: 0.85rem;
-    margin-right: 6px;
+}
+
+@media screen and (max-width: 767px) {
+  .coursesSwiper {
+    grid-template-columns: repeat(2, 1fr);
   }
-  .ratingStars {
-    width: 25%;
-    height: 100%;
-    margin-right: 8px;
+
+  .drawerMenuStyle,
+  .searchIconStyle {
+    display: inline;
   }
-  .goldStar {
-    font-size: 10px;
-    color: gold;
+
+  .logoStyle {
+    margin: auto;
   }
-  .grayStar {
-    font-size: 10px;
-    color: #ddd;
+
+  .navItemCategoriesLinkStyle,
+  .containerSearchStyle,
+  .navBottomsStyle {
+    display: none;
   }
-  .numOfStudents {
-    color: #6a6f73;
-    font-size: 0.8rem;
+
+  .lang {
+    margin-bottom: 25px;
   }
-   .coursePrice {
-    margin-top: 11px;
-    color: black;
-    font-weight: 700;
-  } 
-  
-  /* delet line old price */
-  strike {
-    text-decoration: none;
-    position: relative;
-    display: inline-block;
-    font-weight: 500; 
-    font-size: 0.8rem;
+  .itemsLang {
+    justify-content: space-between;
+    flex-direction: column-reverse;
   }
-  strike:after {
-    content: "";
-    /* required property */
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    font-size: 1rem;
-    border-top: 2px solid gray;
-    height: 45%;
-    height: calc(50% - 1px);
-    width: 100%;
-    transform: rotateZ(0deg);
+  .footerListItems {
+    flex-direction: column;
+    justify-content: space-between;
   }
+  .fooUdemyIcon {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 575px) {
+  .coursesSwiper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+}
+
+@media screen and (max-width: 380px) {
+  .main-section {
+    margin-bottom: 190px;
+  }
+}

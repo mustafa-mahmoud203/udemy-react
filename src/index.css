@@ -9,6 +9,26 @@
   text-decoration: none;
 }
 
+
+header {
+  width: 100%;
+  /* position: fixed; */
+  z-index: 1010;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  box-shadow: 0.1px 0.1px 8px gray;
+}
+
+/* Nav bar style */
+header nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -22,140 +42,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-/* .container-courses {
-  width: 90%;
-  border: 0.4px solid #6a6f73;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  padding: 35px 35px;
-  margin-left:auto ;
-  margin-right: auto;
+footer {
+  background: rgba(0, 0, 0, 0.85);
+  padding: 30px 55px;
 }
-
-/* Course Description */
-/* .courses-discription span {
-  font-family: udemy sans, -apple-system, BlinkMacSystemFont, Roboto, segoe ui,
-    Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji,
-    segoe ui symbol;
-  font-weight: 700;
-  line-height: 1.2;
-  font-size: 1.5rem;
-  letter-spacing: -0.02rem;
-}
-.courses-discription p {
-  margin-top: 0.6rem;
-  line-height: 1.2;
-  width: 70%;
-  font-size: 0.8rem;
-  color: black;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  line-clamp: 2;
-  -webkit-box-orient: vertical;
-}
-
-/* Explore Bottom Style */
-/* .explore-btn {
-  margin-top: 1rem;
-  border: 1px solid black;
-  width: max-content;
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: 0.7s ease;
-}
-.explore-btn:hover {
-  background-color: #f7f9fa;
-  transform: scale(1.1);
-}
-.explore-btn a {
-  text-decoration: none;
-  color: black;
-  font-weight: 600;
-  font-size: 0.9rem;
-  margin: 0 10px;
-}
-
-.courses-swiper{
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-gap: 20px;
-} */ 
-
-
-/* Course Card Style
-.courses-card {
-  margin-top: 3rem;
-}
-.courses-card img {
-  width: 100%;
-  margin-bottom: 0.8rem;
-  height: 9rem;
-}
-.courses-card h5 {
-  color: black;
-  line-height: 1.4rem;
-  /* font-size: 1rem; */
-/*
-}
-.author-name {
-  color: #6a6f73;
-  font-size: 0.8rem;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-.rating-num {
-  color: #b4690e;
-  font-weight: 700;
-  font-size: 0.85rem;
-  margin-right: 6px;
-}
-.rating-stars {
-  width: 25%;
-  height: 100%;
-  margin-right: 8px;
-}
-.gold-star {
-  font-size: 10px;
-  color: gold;
-}
-.gray-star {
-  font-size: 10px;
-  color: #ddd;
-}
-.num-of-students {
-  color: #6a6f73;
-  font-size: 0.8rem;
-}
- .course-price {
-  margin-top: 11px;
-  color: black;
-  font-weight: 700;
-} 
-
-/* delet line old price */
-/*strike {
-  text-decoration: none;
-  position: relative;
-  display: inline-block;
-  font-weight: 500; 
-  font-size: 0.8rem;
-}
-strike:after {
-  content: "";
-  /* required property */
- /* position: absolute;
-  bottom: 0;
-  left: 0;
-  font-size: 1rem;
-  border-top: 2px solid gray;
-  height: 45%;
-  height: calc(50% - 1px);
-  width: 100%;
-  transform: rotateZ(0deg);
-} */
