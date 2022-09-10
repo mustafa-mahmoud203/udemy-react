@@ -1,0 +1,60 @@
+
+  .WhatLearn{
+    width:50%;
+    display: flex;
+   font-size: 1rem;
+    margin-top: 2rem;
+    border:  1px solid black;
+   
+  }
+
+  .head{
+    margin-bottom: 10px;
+    font-size: 1.7rem;
+  }
+  .divL{
+    padding-left: 1rem;
+    padding-top: 1rem;
+  }
+  .divR{
+    width: 50%;
+    margin-top: 60px;
+  }
+  /* /////////////////// */
+  
+@media screen and (max-width: 1199px) {
+  .head{
+     
+      font-size: 1.2rem;
+    }
+    .WhatLearn{
+     
+      font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 991px) {
+  .WhatLearn{
+    width:70%;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .WhatLearn{
+    width:80%;
+    
+  }
+  
+}
+@media screen and (max-width: 575px) {
+  .WhatLearn{
+    width:100%;
+    flex-direction: column;
+  }
+ 
+  .divR{
+    width: 50%;
+    margin-top: 0px;
+  }
+}

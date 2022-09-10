@@ -1,0 +1,128 @@
+.title {
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+.mainDiv {
+  display: flex;
+  width: 50%;
+}
+.leftDiv {
+  margin-right: 2rem;
+ 
+}
+.ratingNum {
+  font-size: 3.3rem;
+  font-weight: bold;
+  color: goldenrod;
+  margin-bottom: 0px;
+}
+.starColor {
+  color: goldenrod;
+  width: 0.89rem;
+  height: 0.89rem;
+  margin-right: 0.15rem;
+}
+.courseRating {
+  color: goldenrod;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.allStars {
+  display: flex;
+}
+.fullSlider {
+ width: 360px;
+  height: 8px;
+  background-color: rgb(211, 211, 219);
+  margin-right: 1rem;
+}
+
+.reigthDivContent {
+   display: flex;
+   align-items: center;
+   margin-bottom: 10px;
+}
+.reigthStarColor{
+    color: goldenrod;
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.15rem;
+}
+.rateVal{
+    color: rgb(153, 90, 212);
+    font-size: 0.88rem;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1199px) {
+  .fullSlider {
+    width: 320px;
+    
+   }
+}
+
+@media screen and (max-width: 991px) {
+  .mainDiv {
+  
+    width: 70%;
+  }
+  .fullSlider {
+    width: 300px;
+    
+   }
+}
+
+@media screen and (max-width: 767px) {
+  .mainDiv {
+  
+    width: 80%;
+  }
+  .fullSlider {
+    width: 280px;
+    
+   }
+}
+@media screen and (max-width: 575px) {
+  .mainDiv {
+  
+    width: 100%;
+  }
+  .fullSlider {
+    width: 200px;
+    
+   }
+  .starColor {
+    
+    width: 0.7rem;
+    height: 0.7rem;
+    
+  }
+  .ratingNum {
+    font-size: 2.7rem;
+  }
+  .courseRating {
+    font-size: 0.6rem;
+
+  }
+}
+@media screen and (max-width: 380px) {
+  .starColor {
+    
+    width: 0.6rem;
+    height: 0.6rem;
+    
+  }
+  .fullSlider {
+    width: 180px;
+    
+   }
+  .ratingNum {
+    font-size: 2.4rem;
+  }
+  .courseRating {
+
+    font-size: 0.5rem;
+
+  }
+}

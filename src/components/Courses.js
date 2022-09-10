@@ -4,7 +4,7 @@ import styles from '../appStyles.module.css';
 
 function Courses(data) {
     
-   let listOfCards=data.allCourses.map((course)=>{
+   let listOfCards=data.allCourses.courses.map((course)=>{
       return <Card course={course} key={course.id}/>;
 });
 
@@ -21,7 +21,7 @@ function Courses(data) {
         </p>
       </div>
       <div className={`explore-btn ${styles.exploreBtn}`}>
-        <a href='#'>Explore {data.allCourses[0].tabs}</a>
+        <a href='#'>Explore {data.allCourses.courses[0].topic}</a>
       </div>
      
     

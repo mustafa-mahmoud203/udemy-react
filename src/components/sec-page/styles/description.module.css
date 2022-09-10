@@ -1,0 +1,56 @@
+.mainDiv{
+    margin-top: 1rem;
+    width: 50%;
+    margin-bottom: 1.2rem;
+}
+
+.title{
+    font-weight: 600;
+      font-size: 1.3rem;
+      margin-top: 1.5rem;
+}
+.titleHaid{
+    display: none;
+}
+.btn{
+    background-color: transparent;
+    border: none;
+    color: rgb(164, 115, 209);
+}
+.btnHaid{
+    display: none;
+}
+
+.fullDescHaid{
+    display: none;
+}
+.halfDescHaid{
+    display: none;
+}
+
+
+@media screen and (max-width: 1199px) {
+    .mainDiv{
+        width: 55%;
+    }
+  }
+  
+  @media screen and (max-width: 991px) {
+    .mainDiv{
+        width: 60%;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .mainDiv{
+        width: 80%;
+    }
+  }
+  @media screen and (max-width: 575px) {
+    .mainDiv{
+        width: 100%;
+    }
+  }
+  @media screen and (max-width: 380px) {
+    
+  }

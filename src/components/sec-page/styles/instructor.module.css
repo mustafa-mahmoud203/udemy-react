@@ -1,0 +1,37 @@
+.instructor{
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-top: 2rem;
+}
+.instructorName{
+    font-weight: 600;
+      font-size: 1.1rem;
+    color: rgb(139, 27, 245);
+}
+.instructorIntro{
+    margin-top: 0.4rem;
+    font-size: 1.1rem;
+    color: grey;
+}
+.instructorCourseData{
+    display: flex;
+    margin-bottom: 1.7rem;
+}
+.instructorImg{
+    border-radius: 100%;
+    width: 120px;
+    height: 120px;
+    margin-right: 2rem;
+}
+.CourseData{
+    display: flex;
+    flex-direction: column;
+}
+.CourseDataVal{
+    margin-bottom: 0.4rem;
+    font-size: 1rem;
+    display: flex;
+}
+
+.IconText{margin-right:1rem;}
+

@@ -1,0 +1,125 @@
+.courseContentDiv {
+  display: flex;
+}
+
+.AccordionBodyItems {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-size: 0.8rem;
+}
+
+.circleVideo {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  border-radius: 100%;
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.8rem;
+}
+.PlayIcon {
+  font-size: 0.4rem;
+  color: white;
+}
+.courseContentHead {
+  font-weight: 600;
+  font-size: 1.3rem;
+  margin-top: 1rem;
+}
+.dot {
+  font-size: 3px;
+}
+.numLectures {
+  font-size: 0.8rem;
+  margin-bottom: 0px;
+}
+.expandLecturesBtn {
+  border: none;
+  background-color: transparent;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: blueviolet;
+}
+.mainDiv {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+.moreItemBtn {
+  width: 50%;
+  margin-top: 1.5rem;
+  height: 2.8rem;
+  background-color: transparent;
+}
+.moreItemBtn:hover {
+  background-color: silver;
+}
+
+.moreItemBtnHide {
+  display: none;
+}
+.accordionStyle {
+  width: 50%;
+}
+
+/* ////////////////////////////// */
+
+
+@media screen and (max-width: 1199px) {
+  .courseContentHead {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .mainDiv {
+    width: 70%;
+  }
+  .accordionStyle {
+    width: 70%;
+  }
+  .moreItemBtn {
+    width: 70%;
+    
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .mainDiv {
+    width: 80%;
+  }
+  .accordionStyle {
+    width: 80%;
+  }
+  .moreItemBtn {
+    width: 80%;
+    
+  }
+  .numLectures {
+    font-size: 0.7rem;
+    
+  }
+}
+@media screen and (max-width: 575px) {
+  .mainDiv {
+    width: 100%;
+  }
+  .accordionStyle {
+    width: 100%;
+  }
+  .moreItemBtn {
+    width: 100%;
+    
+  }
+  .expandLecturesBtn {
+    font-size: 0.6rem;
+  }
+  .numLectures {
+    font-size: 0.6rem;
+    
+  }
+}
