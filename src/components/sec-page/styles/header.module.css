@@ -1,0 +1,186 @@
+.secPageHeader {
+  background-color: black;
+  color: white;
+  min-height: 300px;
+  width: 100%;
+}
+
+.mainDiv {
+  margin: auto;
+  width: 80%;
+}
+
+.headerImg {
+  width: 100%;
+  display: none;
+}
+.mainDivH1 {
+  margin-bottom: 0.9rem;
+  width: 80%;
+}
+.mainDivParagarph {
+  margin-bottom: 0.9rem;
+  width: 65%;
+  font-size: 1rem;
+  line-height: 1.3rem;
+}
+.ratingInfo {
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+.pathCourse {
+  display: flex;
+  height: 60px;
+  align-items: center;
+}
+.pathCourseParagarph {
+  margin-right: 20px;
+  color: rgb(209, 186, 231);
+}
+.numOfRatings {
+  margin-left: 0.2rem;
+  font-size: 0.8rem;
+  color: rgb(209, 186, 231);
+}
+.numOfStudents {
+  font-size: 0.9rem;
+  color: white;
+}
+
+.CreatedBy {
+  justify-content: space-between;
+  color: rgb(209, 186, 231);
+}
+
+.starColor {
+  color: goldenrod;
+  width: 0.8rem;
+  height: 0.8rem;
+}
+.ratingNum {
+  color: goldenrod;
+  font-size: 0.8rem;
+  margin-right: 0.3rem;
+}
+.iconsDiv {
+  display: flex;
+  align-content: center;
+}
+.iconStyle {
+  display: flex;
+  margin-right: 1.4rem;
+}
+.textDiscIcon {
+  margin-left: 0.5rem;
+}
+
+.divDisplay {
+  display: none;
+  margin-bottom: 2rem;
+}
+.cardTitle {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.addBtn {
+  width: 95%;
+  height: 3rem;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 1rem;
+  background-color: rgb(192, 85, 192);
+}
+.addBtn:hover {
+  background-color: rgb(157, 94, 216);
+}
+.moneyBack {
+  font-size: 0.8rem;
+  text-align: center;
+  margin-right: 1rem;
+}
+.divLinks {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 1rem;
+}
+.links {
+  color: white;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 1399px) {
+}
+
+
+
+@media screen and (max-width: 991px) {
+  .headerImg {
+    width: 100%;
+    display: block;
+  }
+  .divDisplay {
+    display: block;
+    width: 100%;
+  }
+  .iconsDiv {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .mainDivH1 {
+    margin-bottom: 0.9rem;
+    width: 80%;
+    font-size: 1.6rem;
+  }
+  .mainDivParagarph {
+    margin-bottom: 0.9rem;
+    width: 65%;
+    font-size: 0.85rem;
+    line-height: 1.3rem;
+  }
+  .divDisplay {
+    margin-left: 1rem;
+    display: 80%;
+  }
+  .links {
+    margin-right: 1rem;
+  }
+}
+@media screen and (max-width: 575px) {
+  .mainDivH1 {
+    margin-bottom: 0.9rem;
+    width: 80%;
+    font-size: 1.3rem;
+  }
+  .mainDivParagarph {
+    margin-bottom: 0.9rem;
+    width: 65%;
+    font-size: 0.7rem;
+    line-height: 1.3rem;
+  }
+}
+@media screen and (max-width: 380px) {
+  .links {
+    color: white;
+    font-weight: 600;
+    font-size: 0.7rem;
+  }
+  .mainDivH1 {
+    margin-bottom: 0.9rem;
+    width: 80%;
+    font-size: 1.2rem;
+  }
+  .mainDivParagarph {
+    margin-bottom: 0.9rem;
+    width: 65%;
+    font-size: 0.55rem;
+    line-height: 1.3rem;
+  }
+}

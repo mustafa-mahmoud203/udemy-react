@@ -10,6 +10,7 @@
 }
 
 
+
 header {
   width: 100%;
   /* position: fixed; */
@@ -36,6 +37,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {

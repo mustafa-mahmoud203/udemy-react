@@ -1,0 +1,108 @@
+.pageCard {
+  width: 22rem;
+  position: sticky;
+  position: absolute;
+  top: 30px;
+  right:10rem;
+}
+
+.topCardBody {
+  padding-top: 1rem;
+  padding-left: 1rem;
+  border-bottom: 2px solid gray;
+}
+.cardTitle {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.addBtn {
+  width: 95%;
+  height: 3rem;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 1rem;
+  background-color: rgb(120, 49, 202);
+}
+.addBtn:hover {
+  background-color: rgb(157, 94, 216);
+}
+.buyBtn {
+  width: 95%;
+  height: 3rem;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  text-align: center;
+
+  margin-bottom: 1rem;
+  border: 1px solid black;
+}
+.buyBtn:hover {
+  background-color: rgb(185, 181, 181);
+}
+
+.moneyBack {
+  font-size: 0.8rem;
+  text-align: center;
+  margin-right: 1rem;
+}
+
+.courseContentText {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.courseContentVal {
+  display: flex;
+}
+.courseContentValText {
+  font-size: 0.8rem;
+  margin-left: 1rem;
+}
+.divLinks {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+.links {
+  color: black;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.downCardBody {
+  padding-top: 1rem;
+  padding-left: 1rem;
+  border-bottom: 2px solid gray;
+}
+.downCardBodyTitle {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.downCardBodydesc {
+  font-size: 0.85rem;
+}
+.tryBtn {
+  width: 95%;
+  height: 3rem;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  text-align: center;
+
+  margin-bottom: 1.5rem;
+  border: 1px solid black;
+}
+.tryBtn:hover {
+  background-color: rgb(185, 181, 181);
+}
+

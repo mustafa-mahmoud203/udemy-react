@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  
+}
+.secondPage{
+  position: relative;
 }
 
 .App-logo {
@@ -23,7 +27,6 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
 .App-link {
   color: #61dafb;
 }
@@ -35,4 +38,25 @@
   to {
     transform: rotate(360deg);
   }
+}
+.accordion-button::after {
+  display: none;
+}
+
+.accordion-button::before {
+  flex-shrink: 0;
+  width: var(--bs-accordion-btn-icon-width);
+  height: var(--bs-accordion-btn-icon-width);
+  content: "";
+  margin-left: 0.3rem;
+  margin-right: 0.7rem;
+  background-image: var(--bs-accordion-btn-icon);
+  background-repeat: no-repeat;
+  background-size: var(--bs-accordion-btn-icon-width);
+  transition: var(--bs-accordion-btn-icon-transition);
+}
+.accordion-button:not(.collapsed)::before {
+  background-image: var(--bs-accordion-btn-active-icon);
+  transform: var(--bs-accordion-btn-icon-transform);
+ 
 }
