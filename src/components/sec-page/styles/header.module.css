@@ -115,15 +115,24 @@
 }
 
 @media screen and (max-width: 1399px) {
+  .mainDivH1 {
+    margin-bottom: 0.9rem;
+    width: 80%;
+    font-size: 1.4rem;
+  }
 }
 
 
+@media screen and (max-width: 1199px) {
+  .headerImg {
+  width: 100%;
+  display: block;
+}
+
+}
 
 @media screen and (max-width: 991px) {
-  .headerImg {
-    width: 100%;
-    display: block;
-  }
+  
   .divDisplay {
     display: block;
     width: 100%;
