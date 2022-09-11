@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import styles from '../appStyles.module.css';
 
 function NavHeader() {
@@ -7,7 +8,7 @@ function NavHeader() {
     <nav>
       <div className={`drawer-menu ${styles.drawerMenuStyle}`}><i className="fa-solid fa-bars"></i></div>
       <div className={`logo ${styles.logoStyle}`}>
-        <a href="#"><img className={styles.logoImgStyle} src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg" alt="udemy image" /></a>
+        <Link to={"/"}><img className={styles.logoImgStyle} src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg" alt="udemy image" /></Link>
       </div>
 
       <div className="nav-item-Categories"><a className={styles.navItemCategoriesLinkStyle}>Categories</a></div>

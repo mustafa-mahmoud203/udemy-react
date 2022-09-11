@@ -3,7 +3,7 @@
   position: sticky;
   position: absolute;
   top: 30px;
-  right:10rem;
+  right:6rem;
 }
 
 .topCardBody {
@@ -106,3 +106,8 @@
   background-color: rgb(185, 181, 181);
 }
 
+@media screen and (max-width: 1199px) {
+  .pageCard {
+ display: none;
+}
+}
