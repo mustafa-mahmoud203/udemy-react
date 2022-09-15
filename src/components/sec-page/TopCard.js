@@ -1,6 +1,14 @@
 import React from "react";
 import styles from "./styles/topCard.module.css";
+import { useState } from "react";
 function TopCard(data) {
+
+const  [fix, setFix] = useState(false);
+
+const setFixedSideBar = () => {
+  window.scrollY >= 500 ? setFix(true) : setFix(false);
+};
+window.addEventListener("scroll", setFixedSideBar);
   const listIcons = [
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -32,8 +40,8 @@ function TopCard(data) {
   console.log(data.allData.hoursCount);
   return (
     <>
-      <div className={`card ${styles.pageCard}`} >
-        <img src={data.allData.image} className="card-img-top" alt="..." />
+      <div className={`card ${styles.pageCard}`}  style={{position: fix?"fixed":"absolute"}} >
+        <img src={data.allData.image} style={{display: fix?"none":"block"}} className="card-img-top" alt="..." />
         <div className={styles.topCardBody}>
           <p className={styles.cardTitle}>E£{data.allData.price}</p>
           <div className={styles.addBtn}>Add to Card</div>
