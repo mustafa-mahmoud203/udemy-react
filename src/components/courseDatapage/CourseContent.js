@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from "./styles/courseContent.module.css";
+import styles from "../../Assets/Styles/courseDataComponentsStyles/courseContent.module.css";
 import Accordion from "react-bootstrap/Accordion";
 
 function CoursesContent(data) {

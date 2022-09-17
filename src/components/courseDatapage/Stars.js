@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from "./styles/header.module.css";
+import styles from "../../Assets/Styles/courseDataComponentsStyles/header.module.css";
 function Stars(data) {
     
   

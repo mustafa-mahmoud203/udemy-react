@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./styles/feedBack.module.css";
+import styles from "../../Assets/Styles/courseDataComponentsStyles/feedBack.module.css";
 function FeedBack(data) {
   const getReigthDiv = () => {
     let listVal = [];

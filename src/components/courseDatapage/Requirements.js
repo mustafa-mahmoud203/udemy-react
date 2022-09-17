@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./styles/requirements.module.css";
+import styles from "../../Assets/Styles/courseDataComponentsStyles/requirements.module.css";
 function Requirements(data) {
   let ListVal = [];
   for (let i = 0; i < data.allData.requirements.length; i++) {

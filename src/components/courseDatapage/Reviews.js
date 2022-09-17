@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./styles/reviews.module.css";
+import styles from "../../Assets/Styles/courseDataComponentsStyles/reviews.module.css";
 import Stars from "./Stars";
 import { useState } from "react";
 function Reviews(data) {

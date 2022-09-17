@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./styles/instructor.module.css";
+import styles from "../../Assets/Styles/courseDataComponentsStyles/instructor.module.css";
 import Description from "./Description"
 function Instructor(data) {
   const getInstructors = () => {
