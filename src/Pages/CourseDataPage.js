@@ -4,7 +4,7 @@ import WhatLearn from "../components/courseDatapage/WhatLearn";
 import CoursesContent from "../components/courseDatapage/CourseContent";
 import Requirements from "../components/courseDatapage/Requirements";
 import Description from "../components/courseDatapage/Description";
-import Instructor from "../components/courseDatapage/Instructor";
+import Instructor from "../components/courseDatapage/Instructors";
 import FeedBack from "../components/courseDatapage/FeedBack";
 import Reviews from "../components/courseDatapage/Reviews";
 import TopCard from "../components/courseDatapage/TopCard";

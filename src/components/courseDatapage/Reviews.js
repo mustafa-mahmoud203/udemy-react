@@ -6,7 +6,7 @@ function Reviews(data) {
   let check = data.allData.reviews.length > 10;
 
   const getReviews = () => {
-    let listVal = [];
+    let lsitOfReviews = [];
     data.allData.reviews.forEach((element) => {
       let val = (
         <div className={styles.mainDiv}>
@@ -43,9 +43,9 @@ function Reviews(data) {
           </div>
         </div>
       );
-      listVal.push(val);
+      lsitOfReviews.push(val);
     });
-    return listVal;
+    return lsitOfReviews;
   };
 
   const getFirstTenItems = () => {

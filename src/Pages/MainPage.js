@@ -1,5 +1,5 @@
 import React from 'react'
-import Card from "../components/Card";
+import Card from "../components/CouresCard";
 import styles from '../Assets/Styles/appStyles.module.css';
 
 function Courses(data) {
