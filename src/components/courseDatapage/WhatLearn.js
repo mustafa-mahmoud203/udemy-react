@@ -1,18 +1,13 @@
 import React from "react";
-import styles from "./styles/whatLearn.module.css";
+import styles from "../../Assets/Styles/courseDataComponentsStyles/whatLearn.module.css";
 function WhatLearn(data) {
   let arr1 = [];
   let arr2 = [];
 
-  for (
-    let i = 0;
-    i <= parseInt(data.allData.overview.length / 2);
-    i++
-  ) {
+  for (let i = 0; i <= parseInt(data.allData.overview.length / 2); i++) {
     arr1.push(
       <p>
-        <i className="fa-solid fa-check"></i>{" "}
-        {data.allData.overview[i]}
+        <i className="fa-solid fa-check"></i> {data.allData.overview[i]}
       </p>
     );
   }
@@ -23,8 +18,7 @@ function WhatLearn(data) {
   ) {
     arr2.push(
       <p>
-        <i className="fa-solid fa-check"></i>{" "}
-        {data.allData.overview[i]}
+        <i className="fa-solid fa-check"></i> {data.allData.overview[i]}
       </p>
     );
   }

@@ -1,6 +1,6 @@
 import React from 'react'
-import Card from "./Card";
-import styles from '../appStyles.module.css';
+import Card from "../components/Card";
+import styles from '../Assets/Styles/appStyles.module.css';
 
 function Courses(data) {
     

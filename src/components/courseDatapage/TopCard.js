@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./styles/topCard.module.css";
+import styles from "../../Assets/Styles/courseDataComponentsStyles/topCard.module.css";
 import { useState } from "react";
 function TopCard(data) {
 
