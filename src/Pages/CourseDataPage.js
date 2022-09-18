@@ -10,21 +10,25 @@ import Reviews from "../components/courseDatapage/Reviews";
 import TopCard from "../components/courseDatapage/TopCard";
 import styles from "../Assets/Styles/courseDataPageStyles.module.css";
 import stylesdesc from "../Assets/Styles/courseDataComponentsStyles/description.module.css";
-function CourseDataPage(data) {
+import { useLocation } from "react-router-dom";
+function CourseDataPage() {
+  const location = useLocation();
+  const course = location.state;
+
   return (
     <>
       <div className="secondPage">
-        <Header allData={data.allData} />
-        <TopCard allData={data.allData}></TopCard>
+        <Header allData={course} />
+        <TopCard allData={course}></TopCard>
         <div className={styles.secondPageBody}>
-          <WhatLearn allData={data.allData} />
-          <CoursesContent allData={data.allData} />
-          <Requirements allData={data.allData} />
+          <WhatLearn allData={course} />
+          <CoursesContent allData={course} />
+          <Requirements allData={course} />
           <p className={`${stylesdesc.title}`}>Description</p>
-          <Description allData={data.allData} />
-          <Instructor allData={data.allData} />
-          <FeedBack allData={data.allData} />
-          <Reviews allData={data.allData}></Reviews>
+          <Description allData={course} />
+          <Instructor allData={course} />
+          <FeedBack allData={course} />
+          <Reviews allData={course}></Reviews>
         </div>
       </div>
     </>

@@ -62,7 +62,7 @@
   border: 0;
   width: 100%;
   outline: none;
-  font-size: 0.7rem;
+  font-size: 0.77rem;
   padding: 0 15px;
 }
 
@@ -218,6 +218,10 @@
 /* CourseCard */
 .coursesCard {
   margin-top: 3rem;
+  transition: 0.7s ease;
+}
+.coursesCard:hover {
+  transform: scale(1.1);
 }
 .coursesCard img {
   width: 100%;
