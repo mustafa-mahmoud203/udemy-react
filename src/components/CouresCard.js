@@ -2,10 +2,9 @@ import React from "react";
 import styles from "../Assets/Styles/appStyles.module.css";
 import { Link } from "react-router-dom";
 function Card(data) {
-
   let stars = [];
   let counter = 0;
-  let instructor=[];
+  let instructor = [];
   for (let i = 0; i < parseInt(data.course.rate); i++) {
     stars.push(
       <i
@@ -34,18 +33,16 @@ function Card(data) {
     counter++;
   }
 
-  for (let i = 0; i <data.course.instructor.length; i++) {
+  for (let i = 0; i < data.course.instructor.length; i++) {
     instructor.push(data.course.instructor[i].name);
   }
 
   return (
- <Link style={{textDecoration: 'none'}} to={"/course"}>
+    <Link style={{ textDecoration: "none" }} to={"/course"} state={data.course}>
       <div className={`courses-card ${styles.coursesCard}`}>
         <img src={data.course.image} alt={data.course.topic}></img>
         <h5>{data.course.title}</h5>
-        <p className={`author-name ${styles.authorName}`}>
-          {instructor}
-        </p>
+        <p className={`author-name ${styles.authorName}`}>{instructor}</p>
         <span>
           <span className={`rating-num ${styles.ratingNum}`}>
             {data.course.rate}
@@ -56,10 +53,10 @@ function Card(data) {
           </span>
         </span>
         <div className={`course-price ${styles.coursePrice}`}>
-        E£ {data.course.price} 
+          E£ {data.course.price}
         </div>
       </div>
-      </Link>
+    </Link>
   );
 }
 

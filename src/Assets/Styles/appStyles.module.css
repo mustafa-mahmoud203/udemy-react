@@ -218,6 +218,10 @@
 /* CourseCard */
 .coursesCard {
   margin-top: 3rem;
+  transition: 0.7s ease;
+}
+.coursesCard:hover {
+  transform: scale(1.1);
 }
 .coursesCard img {
   width: 100%;

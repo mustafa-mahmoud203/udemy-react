@@ -2,7 +2,6 @@ import React from "react";
 import styles from "../../Assets/Styles/courseDataComponentsStyles/description.module.css";
 import { useState } from "react";
 function Description(data) {
-  console.log(data)
   const getDesc = () => {
     let text = "";
     data.allData.description.forEach((item) => {
