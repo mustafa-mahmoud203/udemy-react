@@ -36,6 +36,7 @@ function NavHeader() {
               type="text"
               placeholder="Search for anything"
               className={`filter-el ${styles.searchBarInputStyle}`}
+              
             />
           </form>
         </div>
