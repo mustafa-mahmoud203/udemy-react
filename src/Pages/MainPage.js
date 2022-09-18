@@ -1,13 +1,16 @@
 import React from 'react'
-import Card from "../components/Card";
+import Card from "../components/CouresCard";
 import styles from '../Assets/Styles/appStyles.module.css';
-
-function Courses(data) {
-    
-   let listOfCards=data.allCourses.courses.map((course)=>{
+import Loading from '../components/Loading'
+import Error from '../components/Error'
+function Courses(props) {
+    console.log(props.error)
+  if(props.loading)return <Loading/>
+  else if(props.error)return <Error/>
+  else{
+    let listOfCards=props.data.courses.map((course)=>{
       return <Card course={course} key={course.id}/>;
 });
-
   return (
     <section className={`container-courses ${styles.containerCourses}`}>
       <div className={`courses-discription ${styles.coursesDiscription}`}>
@@ -21,7 +24,7 @@ function Courses(data) {
         </p>
       </div>
       <div className={`explore-btn ${styles.exploreBtn}`}>
-        <a href='#'>Explore {data.allCourses.courses[0].topic}</a>
+        <a href='#'>Explore {props.data.courses[0].topic}</a>
       </div>
      
     
@@ -33,6 +36,7 @@ function Courses(data) {
     
     </section>
   );
+  }
 }
 
 export default Courses

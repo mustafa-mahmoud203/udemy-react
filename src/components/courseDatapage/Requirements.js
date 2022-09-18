@@ -1,16 +1,13 @@
 import React from "react";
 import styles from "../../Assets/Styles/courseDataComponentsStyles/requirements.module.css";
 function Requirements(data) {
-  let ListVal = [];
-  for (let i = 0; i < data.allData.requirements.length; i++) {
-    let val = <li>{data.allData.requirements[i]}</li>;
-    ListVal.push(val);
-  }
-
+  let requirementsList = data.allData.requirements.map((item) => {
+    return <li>{item}</li>;
+  });
   return (
     <div className={styles.mainDiv}>
       <p className={styles.paragraph}>Requirements</p>
-      {ListVal}
+      {requirementsList}
     </div>
   );
 }
