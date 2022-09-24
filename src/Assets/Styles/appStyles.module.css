@@ -62,7 +62,7 @@
   border: 0;
   width: 100%;
   outline: none;
-  font-size: 0.77rem;
+  font-size: 0.7rem;
   padding: 0 15px;
 }
 
@@ -292,7 +292,6 @@ strike:after {
 
 /* Footer style */
 
-
 .itemsLang {
   display: flex;
   justify-content: space-between;
@@ -328,7 +327,7 @@ footer dl {
   background-color: gray;
 }
 
-.langIconAndParagraph{
+.langIconAndParagraph {
   color: white;
   padding-right: 10px;
   margin-bottom: 0px;
@@ -354,7 +353,6 @@ footer dl {
 /* ----------------------------------------------------------------------- */
 
 @media screen and (max-width: 1399px) {
- 
 }
 
 @media screen and (max-width: 1199px) {
@@ -412,7 +410,6 @@ footer dl {
   .coursesSwiper {
     grid-template-columns: repeat(1, 1fr);
   }
-
 }
 
 @media screen and (max-width: 380px) {
