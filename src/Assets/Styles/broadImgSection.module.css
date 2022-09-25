@@ -1,0 +1,75 @@
+@import url("https://use.typekit.net/bcc4wcv.css");
+
+.broadImgSection {
+    width: 95%;
+    margin-top: 0.39rem;
+    min-height: 400px;
+    background: url(../images/clock.jpg) no-repeat;
+    background-position: 77%;
+    background-size: cover;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .broadImgSection Div {
+    background-color: white;
+    width: 35%;
+    /* height: 191px; */
+    padding: 24px 24px;
+    position: absolute;
+    top: 30px;
+    left: 70px;
+  }
+  .broadImgSection h1{
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 2.2rem;
+    padding-bottom: 15px;
+  }
+  .broadImgSection p{
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    color: black;
+  }
+  
+  @media screen and (max-width: 991px) {
+    .broadImgSection h1 {
+      font-size: 1.5rem;
+    }
+    .broadImgSection p {
+      font-size: 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .broadImgSection {
+      margin-bottom: 140px;
+    }
+    .broadImgSection Div {
+      top: 100%;
+      left: 0;
+      width: 100%;
+    }
+    .broadImgSection h1 {
+      font-size: 2.2rem;
+    }
+    .broadImgSection p {
+      font-size: 1.2rem;
+    }
+   
+  }
+  @media screen and (max-width: 575px) {
+    .broadImgSection h1 {
+      font-size: 1.6rem;
+    }
+    .broadImgSection p {
+      font-size: 1.02rem;
+    }
+    
+  }
+  
+  @media screen and (max-width: 380px) {
+    .broadImgSection {
+      margin-bottom: 190px;
+    }
+  }
+  
