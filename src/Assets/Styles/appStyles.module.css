@@ -207,22 +207,26 @@
   margin: 0 10px;
 }
 
-.coursesSwiper {
+/* carousel */
+.swiperStyle {
+  width: auto;
+  min-height: 450px;
+  
+}
+
+/* .coursesSwiper {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 20px;
   margin-left: 1rem;
-}
+} */
 
 /* CourseCard */
 .coursesCard {
   margin-top: 3rem;
-  transition: 0.7s ease;
 }
-.coursesCard:hover {
-  transform: scale(1.1);
-}
+
 .coursesCard img {
   width: 100%;
   margin-bottom: 0.8rem;

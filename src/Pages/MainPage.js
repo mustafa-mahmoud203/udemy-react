@@ -1,10 +1,12 @@
 import React from 'react'
-import Courses from '../components/CoursesSwaper'
-import TopCategories from '../components/TopCategories'
+// import BroadImgSection from '../components/main_page/BroadImgSection'
+import Courses from '../components/main_page/CoursesSwaper'
+import TopCategories from '../components/main_page/TopCategories'
 
 function MainPage() {
   return (
     <>
+        {/* <BroadImgSection/> */}
         <Courses/>
         <TopCategories/>
     </>

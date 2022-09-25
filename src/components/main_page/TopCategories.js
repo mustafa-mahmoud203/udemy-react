@@ -1,9 +1,9 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
-import Loading from "./Loading";
-import Error from "./Error";
+import Loading from "../Loading";
+import Error from "../Error";
 import TopCategoriesCard from './TopCategoriesCard';
-import styles from "../Assets/Styles/topCategories.module.css";
+import styles from "../../Assets/Styles/topCategories.module.css";
 function TopCategories() {
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState(false);
