@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../Assets/Styles/topCategories.module.css";
+import styles from "../../Assets/Styles/topCategories.module.css";
 function TopCategoriesCard(props) {
   return (
     <>

@@ -19,6 +19,7 @@
     "react-show-more-text": "^1.5.2",
     "react-simple-star-rating": "^4.0.5",
     "styled-components": "^5.3.5",
+    "swiper": "^6.8.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
