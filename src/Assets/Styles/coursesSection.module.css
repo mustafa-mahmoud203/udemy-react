@@ -1,0 +1,122 @@
+.courses {
+  margin-top: 50px;
+  position: relative;
+  color: black;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.broadHintTitle {
+  font-family: SuisseWorks, Georgia, Times, times new roman, serif,
+    apple color emoji, segoe ui emoji, segoe ui symbol;
+  font-weight: 700;
+  font-size: 2rem;
+  letter-spacing: -0.05rem;
+  color: black;
+  margin-bottom: 1.8rem;
+}
+.hint-for-this-section p {
+  color: black;
+}
+
+.containerCourses {
+  border: 0.4px solid #6a6f73;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 35px 35px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Course Description */
+.coursesDiscription span {
+  font-family: udemy sans, -apple-system, BlinkMacSystemFont, Roboto, segoe ui,
+    Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji,
+    segoe ui symbol;
+  font-weight: 700;
+  line-height: 1.2;
+  font-size: 1.5rem;
+  letter-spacing: -0.02rem;
+}
+.coursesDiscription p {
+  margin-top: 0.6rem;
+  line-height: 1.2;
+  width: 70%;
+  font-size: 0.8rem;
+  color: black;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+/* Explore Bottom Style */
+.exploreBtn {
+  margin-top: 1rem;
+  border: 1px solid black;
+  width: max-content;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.7s ease;
+}
+.exploreBtn:hover {
+  background-color: #f7f9fa;
+  transform: scale(1.1);
+}
+.exploreBtn a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin: 0 10px;
+}
+
+/* carousel */
+.swiperStyle {
+  width: auto;
+  min-height: 450px;
+}
+
+
+
+@media screen and (max-width: 991px) {
+    .coursesDiscription p {
+        width:85%;
+      }
+}
+
+@media screen and (max-width: 767px) {
+    .coursesDiscription span {
+        font-size: 1.3rem;
+      }
+
+      .coursesDiscription p {
+        width:90%;
+      }
+}
+@media screen and (max-width: 575px) {
+  .broadHint {
+    display: none;
+  }
+
+  .coursesDiscription span {
+    font-size: 1.1rem;
+  }
+
+  .coursesDiscription p {
+  
+    width:95%;
+    font-size: 0.7rem;
+   
+  }
+}
+
+@media screen and (max-width: 380px) {
+    .coursesDiscription span {
+        font-size: 0.8rem;
+      }
+}
